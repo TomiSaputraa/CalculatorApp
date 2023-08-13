@@ -16,6 +16,7 @@ dependencies:
   math_expressions: ^2.4.0
   shared_preferences: ^2.0.17
   flutter_native_splash: ^2.1.6
+  flutter_launcher_icons: ^0.11.0
 
 dev_dependencies:
   flutter_test:
@@ -32,3 +33,8 @@ flutter_native_splash:
   ios: false
   color: "#000000"
   image: "assets/img/calc.png"
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path_android: "assets/img/calc.png"
