@@ -3,7 +3,7 @@ description: A new Flutter project.
 
 publish_to: "none"
 
-version: 1.0.0+1
+version: 1.0.1+1
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
@@ -15,6 +15,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   math_expressions: ^2.4.0
   shared_preferences: ^2.0.17
+  flutter_native_splash: ^2.1.6
 
 dev_dependencies:
   flutter_test:
@@ -24,3 +25,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+flutter_native_splash:
+  android: true
+  web: false
+  ios: false
+  color: "#000000"
+  image: "assets/img/calc.png"
