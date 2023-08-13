@@ -16,6 +16,7 @@ jobs:
           flutter-version: 2.10.5
       - name: Build APK
         run: flutter build apk
+        
   release:
     name: Create Release
     needs: build
